@@ -1,5 +1,10 @@
 site_name: Baugus-LEGO-Game
 
+nav: 
+    - Welcome: Welcome.md
+    - Rules: CoreRules.md
+
+
 theme:
     name: 'material'
     palette:
@@ -21,6 +26,10 @@ theme:
       toggle:
         icon: material/toggle-switch
         name: Switch to light mode
+
+    features:
+        - navigation.instant
+        - navigation.top
 
 # Extensions
 markdown_extensions:
