@@ -22,11 +22,6 @@ theme:
         icon: material/toggle-switch
         name: Switch to light mode
 
-nav:
-  - Welcome: Welcome.md
-  - Core Rules: CoreRules.md
-
-
 # Extensions
 markdown_extensions:
   - footnotes
@@ -52,6 +47,12 @@ markdown_extensions:
 
   - toc:
       permalink: true
+
+
+nav:
+  - Welcome: Welcome.md
+  - Core Rules: CoreRules.md
+
 
 plugins:
   - search
