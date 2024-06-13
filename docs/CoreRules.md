@@ -31,7 +31,7 @@ Landscapes can be as large or small as you desire, but must be large enough to a
 
 ### Terrain Types
 1. **Grassland (green):** the default land terrain. Grassland can be cultivated in fields to product wheat. ^72e65a
-2. Woodland:** a single tree represents a grove which occupies a 3x3 square area with the trunk of the tree at its center (see diagram). Adjacent groves together comprise a forest. Trees are valuable resources to be exploited but also represent obstacles to movement and other kinds of development, so don’t go overboard on trees.
+2. **Woodland:** a single tree represents a grove which occupies a 3x3 square area with the trunk of the tree at its center (see diagram). Adjacent groves together comprise a forest. Trees are valuable resources to be exploited but also represent obstacles to movement and other kinds of development, so don’t go overboard on trees.
 3. **Rock (gray):** a rock cliff of at least 2 studs tall and two studs wide is required for a quarry. Rock, and locations to quarry it, is a strategic resource mid and late game.
 4. **Water (blue):** waterways comprising rivers, lakes, and seas become transportations arteries and fisheries when paired with infrastructure. ^7dede9
 	1. Rivers are at most two studs wide and are connected to a larger body of water on at least one end. 
@@ -212,15 +212,22 @@ Boats are a special class of infrastructure that can move across water. As part 
 
 ###### Fortifications
 Fortifications are a special class of infrastructure. Each type of fortification can be built either by itself, or physically touching another fortification to create a fortress. Fortifications as a class have several special attributes:
+
 1. Fortifications present a physical barrier on the landscape. When calculating movement onto or over fortifications, the height of the fortification is taken into account. 
+
 2. The height of a fortification is not taken into account when measuring combat distance between a garrisoned pawn and a pawn on the ground.
+
 3. Fortifications block the combat range. Two pawns located on opposite sides of a fortification (and not themselves located “in” the fortification) are considered out of combat range of each other, even if they would otherwise be in range of each other.
+
 4. Some fortifications give range and/or strength bonuses to garrisoned pawns.
 
 ###### Control of Infrastructure
 By default newly built infrastructure belongs to and is controlled by the player who built it. Players retain ownership of infrastructure unless they (a) give it to another player, or (b) lose control. A player loses control of infrastructure when the only pawns physically in the structure are unfriendly ones. When this happens, the unfriendly player(s) seize ownership. There are two exceptions to this rule:
+
 1. Roads are not owned by any player.
+
 2. Village residents are naturally loyal to its owner. Therefore, for a village to change ownership, the owner must be out of control for an entire round of play as measured from the end of one [[#Populate]] phase to the next. While control is lost, lower the village’s flag to half-mast, it cannot produce more pawns, and it is blockaded—resources cannot be moved into, out of, or through the village. 
+
 When taking ownership of a structure, the new player also gains control and ownership of any resources stored in the structure. 
 
 ###### Infrastructure Types
@@ -335,12 +342,19 @@ During the deploy phase players may use actions to move warriors. The movement o
 
 #### Combat: Art of the Skirmish
 Combat is conducted during the [[#Deploy]] phase and is accomplished through skirmishes. Skirmishes are free actions, but certain conditions must be met to initiate one. When skirmishing, there are some important concepts to keep in mind.
+
 - **Combat Range:** Each pawn has a combat range. During a skirmish, a pawn can only “target” another pawn or detachment (see [[#^6b7a99|detachments]] below) when those targets are within their combat range. In most cases, combat range is calculated identically to movement range. There are a couple exceptions:
+	
 	- **Trees:** The combat range of a pawn in a tree is calculated from the “trunk” of the tree. 
+	
 	- *Fortifications:** The vertical height of a fortification is not taken into account when calculating combat range.
+	
 	- **Workers:** Workers’ combat range is only effective when they are garrisoned in a fortification. A worker on unimproved ground or in non-fortification infrastructure cannot exercise their combat range.
+
 - **Attack/Defense Strength:** Pawns have a base attack and defense strength. During a skirmish, when dice are rolled, one 6-sided dice is rolled for each pawn. Pawns score a hit when the die’s result is less than or equal to their strength. 
+
 - **Detachments:** For the purposes of combat, friendly pawns stacked on the same stud are considered a detachment. Detachments are important for targeting. When a pawn in a detachment is targeted, the whole detachment is considered to be targeted. If a hit is scored, the controller of the detachment may choose any pawn from the detachment as the casualty (see [[#^1cd3b9|casualties]] below). 
+
 The table below summarizes some key combat values for workers and warriors. ^6b7a99
 
 | Unit    | Combat Range | Base Attack Strength | Base Defense Strength |
@@ -350,21 +364,37 @@ The table below summarizes some key combat values for workers and warriors. ^6b7
 
 
 Skirmishes are conducted as a sequence of steps:
+
 1) **Declaration:** Any player may declare a skirmish during, or immediately after a deploy action when at least one of their own pawns has a legal target. They do so by challenging one or more of the pawns they could legally target.   ^ed673c
+	
 	1) Legal targets for the active player (the player whose turn it is) include all pawns within the effective combat range of their pawn(s) using the deploy action. For purposes of initiating a skirmish the declaring player may challenge more than one detachment.
+	
 	2) Legal targets for inactive players are only those pawns using the deploy action. 
+	
 	3) When any player declares a skirmish between two or more pawns, that player is considered the declaring player. The controller(s) of the targeted pawns is the responding player(s). 
+	
 	4) The responding player must respond with the challenged pawns, however, they may also respond with any other pawns who could target the declaring pawns.
+
 3) **Assign Targets:** Before dice are rolled, each pawn engaged in combat must be assigned a target. If a pawn scores a hit, only pawns from the targeted detachment may be chosen as casualties. 
+
 4) **Dice Roll:** Starting with the declaring player, each player in the skirmish takes a turn to roll one 6-sided dice for each of their pawns engaged in the skirmish. Players may find it prudent for clarity’s sake to roll dice for all pawns with the same target at the same time, but to roll dice for pawns with different targets separately. Each kind of unit has a *combat value* (also called *combat strength*), if that units’s die roll is less than or equal to its combat value, it scores a hit. Otherwise, it scores a miss. Some circumstances may increase the combat strength of a unit (e.g. fortifications), in these cases the adjusted combat value (base + bonus) is used to determine hits. All dice for all players/pawns are rolled and hits recorded before casualties are assigned. 
+
 5) **Casualties:** Once each pawn has had a chance to roll a die, players must assign one casualty for each hit. Only pawns targeted by an hit can be chosen as a casualty for that hit. If all such targeted pawns have already been counted as a casualty, then the hit is not assigned. ^1cd3b9
+	
 	1) Workers and Warriors may only be assigned one hit before they are considered a casualty. 
+	
 	2) Pawns that become casualties are sent to “critical condition.” They are removed from the board and placed into the baseplate of the nearest friendly village. See [[#Critical Condition]] for details on what happens to pawns in critical condition.
+
 6) **Reaction:** After causalities are taken, each player (starting with defenders) have the choice of reacting with *one* of the following three options:
+	
 	1) *Retreat:* To retreat a player moves his/her pawns one stud away from their challenging pawns. When retreating, all rules governing movement apply except the following: (1) a vertical distance of at most one stud may be ignored and (2) no bonuses due to infrastructure (roads, boats, etc.) are counted. *Note: Given the particulars of board geography and movement rules, retreat is not always possible.*
+	
 	2) *Complete the Deploy:* If this skirmish interrupted a deploy action of the active player (i.e. the player whose turn it is) then that player may choose to complete any remaining studs of movement afforded by their deploy action. Only move to step 6 once all remaining studs of the deployment action are completed.
+	
 	3) *Re-deploy:* The active player may choose to initiate another deploy action. Step 6 may be initiated by either player at any point during this new deploy action. ^868a68
+
 7) **Press the Attack:** Once any responses have been completed (or started in the case of a [[#^868a68|re-deployment]]), a new round of skirmishing may be initiated, as a free action, by any of the skirmishing parties provided the rules governing [[#^ed673c|declaration]] are met. If neither player choses to make a reaction, a new skirmish may be initiated immediately as a free action.
+
 Skirmishing rounds end only when all players able to press the attach choose to not do so or none of the parties are able to continue pressing the attack (e.g. all unfriendly pawns have taken casualties or retreated).
 
 Note that an initial skirmish may only be declared when a deploy action is taken. This means that a worker alone can never be used by the active player to initiate a skirmish. Workers may only challenge the active player’s deploying warriors. Additionally, two unfriendly warriors that begin the deployment phase within range of each other, cannot initiate a skirmish unless one of them initiates a deploy action. Once a skirmish is declared, subsequent skirmishes can be initiated immediately between the same detachments, but the initial skirmish cannot be declared without a deploy action used by one of the engaged parties.
@@ -395,7 +425,7 @@ Resources may only be stored with a pawn between turns if that pawn is not conne
 ### Populate
 During this phase each village produces one new pawn. Players cannot opt out or prevent a new pawn from being produced in each village they control. This new pawn is by default a worker, however, a player may choose to produce a warrior instead by paying 4 food for each warrior produced. 
 
-When populating, you may place new pawns in the village, in one of its improvements, onto a stud directly adjacent to the village, or directly into infrastructure that is touching the village or one of its improvements. When placing a worker on a stud directly adjacent to the village, there must be no more than 3 studs of vertical distance between the level of the village and the level of the target stud (see [[#Note on Game Substrate(s)]] for details on calculating distances). 
+When populating, you may place new pawns in the village, in one of its improvements, onto a stud directly adjacent to the village, or directly into infrastructure that is touching the village or one of its improvements. When placing a worker on a stud directly adjacent to the village, there must be no more than 3 studs of vertical distance between the level of the village and the level of the target stud (see [[#Note on Game Mediums]] for details on calculating distances). 
 
 # IV. End of the Age
 While the mechanics of this game can be adapted to numerous civilization building challenges and associated goals, the below has been found to create an interesting game and balanced set of scoring incentives.
@@ -426,6 +456,6 @@ The winner is the civilization who acquires the most civilization points. Points
 	- Largest Population:      4 pts
 	- Largest Industry:          3 pts
 	- Largest food surplus:   3 pts
-		- *Calculated after final [[#Feed People]] stage*
+		- *Calculated after final [[#Consume]] stage*
 - **Penalties:** Remove points for each of the following.
 	- Each pawn that died during the game for any reason:  -1 pt
