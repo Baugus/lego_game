@@ -1,4 +1,4 @@
-# I. Introduction
+# Introduction
 
 ## Backstory
 The age of humans is dawning. Humanity has discovered radical new ways to cultivate the natural landscape rather than simply exploit its bounty. Your tribe is among the first to master these techniques enabling a new, settled lifestyle and fueling a population explosion that would have been impossible as hunter-gatherers. As chief you have positioned your band to take full advantage of this technological revolution by positioning yourselves in a verdant landscape, ripe for the taking. 
@@ -12,7 +12,8 @@ To become the preeminent civilization on earth. To accomplish this you must achi
 
 From humble beginnings (generally one village and a population of two) through population growth, increasing cultivation of natural resources, wise investments in infrastructure, and geographic expansion your tribe will become a regional civilization with intertwined political and economic ties to your neighbors. See [[#IV. End of the Age]] for a comprehensive treatment of game end triggers and scoring.
 
-# II. Set up
+
+# Set up
 
 ## Note on Game Mediums
 Payers may use any grid-based three-dimensional modeling system they prefer (physical or digital) to set up a board and pieces for this game. We recommend using Lego, but the game may be played on other systems. All measurements in this guidebook are in terms of Lego studs.
@@ -42,7 +43,7 @@ We recommend that first-time players devote a majority of the landscape to grass
 ## Set the stage
 With the board completed each player, in turn order, places a village on the landscape in a legal and desired location. Along with the village each civilization begins with two workers that may be placed in or directly adjacent to the village.
 
-# III. Gameplay
+# Gameplay
 
 ## General Overview
 This is an open-world, resource management game of politics and development. The base rules outline turn order, legal operations, and definitions of resources and units.
@@ -84,32 +85,51 @@ Resources are Wheat, Fish, Wood, Stone. Quantities of these goods are measured i
 Resources, unlike actions, are “stored” at a particular location on the board, typically in a built structure—represented by placing the resources in that structure’s off-board baseplate. Consequently, resources are restricted in where and when they can be “relocated” and are subject to seizure or blockade by unfriendly actions of other players. They also maybe stored over turns.
 
 Players earn resources for having workers engaged in cultivating the natural landscape. Each resource has a unique type of landform and cultivation method:
+
 - **Fields —> Wheat:** A field is a contiguous 8-stud patch of [[#^72e65a|grassland]] that is claimed and cultivated by a single worker at the start of the [[#Gather]] phase. Each cultivated field produces 2 studs of wheat each Gather phase. Place a tan plate over the 8 studs that comprise a claimed field as a “marker” to identify and distinguish it from regular, uncultivated grassland.
-	* Studs separated by *more than* one stud of elevation difference or only diagonally adjacent are not considered contiguous for purposes of fields. 
-	* A field claimed by one worker may not overlap with fields claimed by another worker. 
-	* Partial fields and fields comprised of disconnected parts do not produce wheat during the gather phase.  
-	* For purposes of calculating movement (see [[#Move]]) ignore the additional elevation added to the board by the tan “marker” plate.
-	* The boundaries of fields can be changed at anytime between phases of a round, provided the field still meets the criteria above.
+	
+	- Studs separated by *more than* one stud of elevation difference or only diagonally adjacent are not considered contiguous for purposes of fields. 
+	
+	- A field claimed by one worker may not overlap with fields claimed by another worker. 
+	
+	- Partial fields and fields comprised of disconnected parts do not produce wheat during the gather phase.  
+	
+	- For purposes of calculating movement (see [[#Move]]) ignore the additional elevation added to the board by the tan “marker” plate.
+	
+	- The boundaries of fields can be changed at anytime between phases of a round, provided the field still meets the criteria above.
+
 - **Tree —> Wood:** A tree occupies a 9-stud square with its trunk at the center and produces one stud of wood when cultivated. To cultivate a tree, a worker must be placed within the 9-stud footprint of the tree (usually on top of the tree itself). 
+	
 	- For purposes of distance calculations (e.g. for calculating combat range) a worker placed anywhere in the tree’s 9-stud footprint is considered to be located at the trunk of the tree (the center stud).
+	
 	- For purposes of movement, a pawn is considered “in” the tree when they land on one of the 9 footprint studs. When they do, their move action ends immediately. When moving out of a tree, studs of movement can be calculated as starting from the edge of the 9-stud footprint.
+	
 	- The one exception to the 9-stud footprint is when there is a *fall* in elevation of 3 studs or more from the trunk of the tree to one or more of the 8 perimeter studs. In such a case, a stud 3 studs or more *below* the trunk is not counted as part of the tree’s footprint.
+
 - **Fishery —> Fish:** Water studs may be fished to produce two studs of fish each. To be fished, a stud of water must have a worker located directly adjacent to it on an eligible piece of infrastructure (see below for list). Each worker may only fish one stud water and increasing the number of workers fishing a stud does not increase the number of fish it produces. 
+	
 	- *Villages and Village Improvements:* Workers in villages and village improvements (even when not directly connected to a village) may fish studs of water directly adjacent to the village or improvement provided that the worker is not already engaged in another productive capacity.
+	
 	- *Bridges:* Workers on a bridge may fish the water studs directly adjacent to the bridge, but not the water stud(s) underneath of the bridge. 
+	
 	- *Boats:* Workers on a boat may fish the studs directly adjacent to the current location of the boat. 
+
 - **Quarry —> Stone:** A quarry is a 1 stud by 2 stud piece of infrastructure that is placed on two studs bordering a “cliff” made of [[^rock|rock]] that is at least 2 studs tall and 2 studs wide with a level space beneath it. Each quarry can support up to two workers placed within the quarry. Each of these workers produces 1 stone during the [[#Gather]] phase.  ^d94797
 
 When earned as income a resource is created at the location of the worker who gathered it. To be used or stored long term it must be moved. The movement of resources is governed by trade rules.
 
 ##### Trade: Movement of Resources
 Resources can move freely along trade routes as a free action during either the [[#Gather]] phase (after all income has been collected) or the [[#Consume]] phase. There are two types of trade routes:
+
 - **Infrastructure-Based Trade Routes:** Trade routes exist along connected roads, boats, and buildings. For instance, if Village A is connected to a lake via a road, there is a sailboat on the lake, and Village B is touching a storehouse that is touching the lake, then villages A and B are connected via a general-purpose, infrastructure-based trade route and can move any resource between them subject to the usual rules on timing and blockades. Note that the sail boat does not have to be touching either the storehouse or the road for the trade route to be established. The general principle is that if two locations are connected in such a way that a worker could move between them using built infrastructure the entire way (i.e. no movement across open land), then a trade route exists between the two locations. 
+
 - **Resource-Specific Trade Routs:** By convention, trade routes for specific resources also exist through contiguous, actively cultivated harvesting areas for that resource. For example wood may move freely (as on a trade route) through any number of connected trees (9-stud footprints directly adjacent to each other), provided that they are each actively cultivated. Similarly, while wheat may not move through trees in this way, wheat can be transported through adjacent, actively cultivated, contiguous fields. 
+
 A trade route may be comprised of a combination of these two types. However, note that if a trade route between two places depends on a Resource-Specific Trade Route segment then only that resource may be moved through that segment of the trade route. 
 
 ###### Blockades
 Trade routes are subject to blockade by the military influence of unfriendly civilizations. Units that can project combat range (either of themselves or aided by defensive infrastructure) can restrict the movement of resources through studs within their range. For example a warrior whose range covers a road may restrict (as a passive act) the movement of resources along that road, effectively blockading that section of any trade routes that depended on road in question. This same effect exists when a unit has a combat range only because of fortification bonuses, as in the case of a worker guarding a gate. 
+
 ###### Storage of Resources
 While resources may *move* freely along trade routes, they may only be stored in legal locations. These are:
 
@@ -140,10 +160,14 @@ During the move phase, players may spend actions to move workers across the land
 
 ###### Hills
 Vertical elevation changes count towards the 4 stud limit. See [[#Note on Game Substrate(s)]] for more information about calculating distances. There are four exceptions to this rule: 
+
 - **Downhill Advantage:** When moving to a lower elevation, if a worker would end their allotted 4 studs of movement “hanging” in mid air (i.e. they were not able to reach the lower level within 4 studs), they may be placed on the lower level surface as though they had been able to reach it. 
 	`Example: Rodrick wants to move his worker down a hill that requires 2 studs of horizontal movement and 3 studs of vertical drop. This would normally require 2 actions (since > 4 studs of movement), however, if 2 studs of horizontal movement and 2 studs of vertical movement (one action’s worth) would leave his worker “hanging” above the ground, he may complete the remaining stud of downward movement as a free action.  ^062015
+
 - **Cliff Climbing Limit:** A cliff of 4 or more studs high is always impassible (up or down) even if the player has enough actions to spend to get the worker to the top. 
+
 - **Building Overlap:** When moving a worker within or between friendly buildings (controlled by you or a friendly civilization), elevation differences are not counted as long as the buildings physically touch each other. 
+
 - **Smooth Roads:** While moving onto, along, or off of a road an elevation difference of no more than 1 stud may be ignored. 
 
 ###### Improved Paths: Infrastructure
@@ -188,80 +212,122 @@ Boats are a special class of infrastructure that can move across water. As part 
 
 ###### Fortifications
 Fortifications are a special class of infrastructure. Each type of fortification can be built either by itself, or physically touching another fortification to create a fortress. Fortifications as a class have several special attributes:
-1) Fortifications present a physical barrier on the landscape. When calculating movement onto or over fortifications, the height of the fortification is taken into account. 
-2) The height of a fortification is not taken into account when measuring combat distance between a garrisoned pawn and a pawn on the ground.
-3) Fortifications block the combat range. Two pawns located on opposite sides of a fortification (and not themselves located “in” the fortification) are considered out of combat range of each other, even if they would otherwise be in range of each other.
-4) Some fortifications give range and/or strength bonuses to garrisoned pawns.
+1. Fortifications present a physical barrier on the landscape. When calculating movement onto or over fortifications, the height of the fortification is taken into account. 
+2. The height of a fortification is not taken into account when measuring combat distance between a garrisoned pawn and a pawn on the ground.
+3. Fortifications block the combat range. Two pawns located on opposite sides of a fortification (and not themselves located “in” the fortification) are considered out of combat range of each other, even if they would otherwise be in range of each other.
+4. Some fortifications give range and/or strength bonuses to garrisoned pawns.
 
 ###### Control of Infrastructure
 By default newly built infrastructure belongs to and is controlled by the player who built it. Players retain ownership of infrastructure unless they (a) give it to another player, or (b) lose control. A player loses control of infrastructure when the only pawns physically in the structure are unfriendly ones. When this happens, the unfriendly player(s) seize ownership. There are two exceptions to this rule:
-1) Roads are not owned by any player.
-2) Village residents are naturally loyal to its owner. Therefore, for a village to change ownership, the owner must be out of control for an entire round of play as measured from the end of one [[#Populate]] phase to the next. While control is lost, lower the village’s flag to half-mast, it cannot produce more pawns, and it is blockaded—resources cannot be moved into, out of, or through the village. 
+1. Roads are not owned by any player.
+2. Village residents are naturally loyal to its owner. Therefore, for a village to change ownership, the owner must be out of control for an entire round of play as measured from the end of one [[#Populate]] phase to the next. While control is lost, lower the village’s flag to half-mast, it cannot produce more pawns, and it is blockaded—resources cannot be moved into, out of, or through the village. 
 When taking ownership of a structure, the new player also gains control and ownership of any resources stored in the structure. 
 
 ###### Infrastructure Types
 **Palace:     12 Stone, 7 Actions**
+
 - A 2 x 3 stud structure consisting of 6 stone columns, each costing 1 stone and 1 action to build, capped by a roof costing 6 stone and 1 action. 
+
 - A citadel may be built over the course of several build phases by splitting up build actions across rounds. 
+
 - All 6 columns must be in place before the roof may be constructed.
+
 - A citadel is not considered complete until all 12 stone and 7 actions have been spent.
 
 **Village:   8 Wood, 1 Action**
+
 - Villages have two parts, a 1 x 2 stud town hall and a 1 x 1 stud “dwelling.” 
+	
 	- These two parts must be directly adjacent to each other, but may be placed so as to create a single “line” or an “L”-shape. 
+	
 	- A vertical elevation difference between the two parts is allowed, but both parts must be physically touching each other.
+
 - *Storage:* A village may store up to 4 studs of resources between rounds. 
 
 **Storehouse:  2 Wood, 1 Action**
+
 - Storehouses are a 1 x 2 stud structure.
+
 - *Village Improvement:* A storehouse may function as a [[#Village Improvement]], or a free standing structure. 
+
 - *Storage:* A storehouse may store up to 8 studs of resources between rounds. 
 
 **Water Mill:  4 Wood, 1 Action**
+
 - Mills are a 2 x 2 stud structure that has a “waterwheel” on one edge. To function a mill must be placed so that both studs on the side with the waterwheel are directly adjacent to a river (see [[#^7dede9|water]] for more definitions of rivers) and not more than 1 stud above the surface of the river. 
+
 - *Industry:* Mills can be used to multiply certain resources through industry. See the rules for [[#Industry]] in the [[#Gather]] section for more details. 
+
 - *Village Improvement:* A mill may function as a [[#Village Improvement]], or a free standing structure. 
 
 **Canoe:   2 Wood, 1 Action**
+
 - *Boat*
+
 - *Navigation Limit:* May only be used in water that is at most 2 studs away from land.
+
 - *Carrying Capacity:* 1 pawn.
 
 **Sailboat:   4 Wood, 1 Action**
+
 - *Boat*
+
 - *Navigation Limit:* Sailboats may not the used on bodies of water that are only 1 stud wide.
+
 - *Carrying Capacity:* 4 pawns
 
 **Road Segment:   1 Wood , 1 Action**
+
 - A single stud of wood and one action buys four, 1x1x1 stud segments. Provided that they are built in legal locations relative to the worker using the build action, each of the 4 studs may be placed in locations that are not adjacent to each other. 
+
 - *Landfill:* Road segments may be used to level out uneven terrain, either singly or in stacks. This may be useful in creating a level space to build a larger structure. It is also useful to build “ramps” up steep cliffs.
+
 - *Bridges:* Roads may be used to bridge water or other impassable terrain.
+	
 	- Boats passing under the bridge must count the studs the bridge occupies as part of their movement, but they may not end their movement with any part of them physically under the bridge. 
+	
 	- Bridges may span 2 studs of water or impassable terrain at a time. To make a longer bridge, pillars can be built every third stud by stacking 1x1x1 road segments to the required height. When constructing a pillar for a water crossing, the water should be considered 3 studs deep, therefore to build a pillar that reaches the surface of the water 3 1x1x1 road segments must be stacked, in addition to any vertical distance above the water that may be required. 
 
 **Gate  2 Wood/2 Stone, 1 Action**
+
 - A pawn garrisoning a gate is a gatekeeper. The controller of the gatekeeper may “close” or “open” the gate at will. A closed gate blocks the movement of resources and units through and into the gate. Open gates pose no barrier. An ungarrisoned gate is always open. 
+
 - *Fortification:* 
+	
 	- *Range Bonus:* +0
+	
 	- *Strength Bonus*: +1
 
 **Wall Section 1 Stone, 1 Action**
+
 - Like roads, one stone and one action buys four 1x1x1 wall segments. Also like roads wall segments may be placed singly to create a 1 stud tall wall or in stacks to create taller walls. 
+
 - When traveling along the top of a wall, vertical differences of at most one stud may be ignored. However, when traveling on to or off of a wall (i.e. from the ground to the wall or vice versa) the vertical height of the wall must be taken into account.
+
 - *Fortification:*
+	
 	- *Range Bonus:* +0
+	
 	- *Strength Bonus*: +1
 
 **Tower    4 Stone, 1 Action**
+
 - Towers can be used to promote workers to warriors. Each tower can promote one worker per-turn during the [[#Gather]] phase, if and only if that worker was in the tower at the beginning of the phase. 
+
 - For purposes of passage of units and resources, a tower is considered to function identically to a gate. When a tower is garrisoned, the controller of the garrison may open or close a tower at will to block passage of resources and/or units through the tower.
+
 - *Fortification:*
+	
 	- *Range Bonus:* + 1
+	
 	- *Strength Bonus:* +1
 
 **Quarry  4 Wood, 1 Action**
+
 - A quarry is required to harvest stone. 
+
 - Quarries are 1 stud wide and 2 studs long. The long side must be placed directly adjacent to a rock “cliff” which is at least 2 studs tall and 2 studs wide. See [[#^d94797|stone harvesting]] for more details.
+
 - A single quarry can support up to to productive workers. Each of these workers can quarry one stud of stone each [[#Gather]] phase.  ^671a6f
 
 ### Deploy
