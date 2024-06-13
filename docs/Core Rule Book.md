@@ -1,4 +1,3 @@
-# Core Rules
 # I. Introduction
 ## Backstory
 The age of humans is dawning. Humanity has discovered radical new ways to cultivate the natural landscape rather than simply exploit its bounty. Your tribe is among the first to master these techniques enabling a new, settled lifestyle and fueling a population explosion that would have been impossible as hunter-gatherers. As chief you have positioned your band to take full advantage of this technological revolution by positioning yourselves in a verdant landscape, ripe for the taking. 
@@ -240,18 +239,19 @@ When taking ownership of a structure, the new player also gains control and owne
 During the deploy phase players may use actions to move warriors. The movement of warriors is subject to all the same rules as the movement of workers as found in the [[#Move]] section. Additionally, the deploy phase is when combat can take place between unfriendly units. 
 #### Combat: Art of the Skirmish
 Combat is conducted during the [[#Deploy]] phase and is accomplished through skirmishes. Skirmishes are free actions, but certain conditions must be met to initiate one. When skirmishing, there are some important concepts to keep in mind.
-* **Combat Range:** Each pawn has a combat range. During a skirmish, a pawn can only “target” another pawn or detachment (see [[#^6b7a99|detachments]] below) when those targets are within their combat range. In most cases, combat range is calculated identically to movement range. There are a couple exceptions:
-	* **Trees:** The combat range of a pawn in a tree is calculated from the “trunk” of the tree. 
-	* **Fortifications:** The vertical height of a fortification is not taken into account when calculating combat range.
-	* **Workers:** Workers’ combat range is only effective when they are garrisoned in a fortification. A worker on unimproved ground or in non-fortification infrastructure cannot exercise their combat range.
-* **Attack/Defense Strength:** Pawns have a base attack and defense strength. During a skirmish, when dice are rolled, one 6-sided dice is rolled for each pawn. Pawns score a hit when the die’s result is less than or equal to their strength. 
-* **Detachments:** For the purposes of combat, friendly pawns stacked on the same stud are considered a detachment. Detachments are important for targeting. When a pawn in a detachment is targeted, the whole detachment is considered to be targeted. If a hit is scored, the controller of the detachment may choose any pawn from the detachment as the casualty (see [[#^1cd3b9|casualties]] below). 
+- **Combat Range:** Each pawn has a combat range. During a skirmish, a pawn can only “target” another pawn or detachment (see [[#^6b7a99|detachments]] below) when those targets are within their combat range. In most cases, combat range is calculated identically to movement range. There are a couple exceptions:
+	- **Trees:** The combat range of a pawn in a tree is calculated from the “trunk” of the tree. 
+	- *Fortifications:** The vertical height of a fortification is not taken into account when calculating combat range.
+	- **Workers:** Workers’ combat range is only effective when they are garrisoned in a fortification. A worker on unimproved ground or in non-fortification infrastructure cannot exercise their combat range.
+- **Attack/Defense Strength:** Pawns have a base attack and defense strength. During a skirmish, when dice are rolled, one 6-sided dice is rolled for each pawn. Pawns score a hit when the die’s result is less than or equal to their strength. 
+- **Detachments:** For the purposes of combat, friendly pawns stacked on the same stud are considered a detachment. Detachments are important for targeting. When a pawn in a detachment is targeted, the whole detachment is considered to be targeted. If a hit is scored, the controller of the detachment may choose any pawn from the detachment as the casualty (see [[#^1cd3b9|casualties]] below). 
 The table below summarizes some key combat values for workers and warriors. ^6b7a99
 
 | Unit    | Combat Range | Base Attack Strength | Base Defense Strength |
 | ------- | ------------ | -------------------- | --------------------- |
 | Worker  | 2            | 0                    | 0                     |
 | Warrior | 2            | 2                    | 2                     |
+
 Skirmishes are conducted as a sequence of steps:
 1) **Declaration:** Any player may declare a skirmish during, or immediately after a deploy action when at least one of their own pawns has a legal target. They do so by challenging one or more of the pawns they could legally target.   ^ed673c
 	1) Legal targets for the active player (the player whose turn it is) include all pawns within the effective combat range of their pawn(s) using the deploy action. For purposes of initiating a skirmish the declaring player may challenge more than one detachment.
