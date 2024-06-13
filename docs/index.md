@@ -1,4 +1,0 @@
-# Home Menu
-
-[[Welcome]]
-[[CoreRules]]
