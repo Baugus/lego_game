@@ -1,3 +1,4 @@
+# Core Rules
 # I. Introduction
 ## Backstory
 The age of humans is dawning. Humanity has discovered radical new ways to cultivate the natural landscape rather than simply exploit its bounty. Your tribe is among the first to master these techniques enabling a new, settled lifestyle and fueling a population explosion that would have been impossible as hunter-gatherers. As chief you have positioned your band to take full advantage of this technological revolution by positioning yourselves in a verdant landscape, ripe for the taking. 
