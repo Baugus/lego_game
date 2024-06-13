@@ -24,8 +24,7 @@ theme:
 
 nav:
   - Welcome: Welcome.md
-  - Rules:
-      - Core Rules: CoreRules.md
+  - Core Rules: CoreRules.md
 
 
 # Extensions
