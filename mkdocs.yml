@@ -22,6 +22,12 @@ theme:
         icon: material/toggle-switch
         name: Switch to light mode
 
+nav:
+  - Welcome: Welcome.md
+  - Rules:
+      - Core Rules: CoreRules.md
+
+
 # Extensions
 markdown_extensions:
   - footnotes
