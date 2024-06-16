@@ -1,0 +1,1129 @@
+
+<!doctype html>
+<html lang="en" class="no-js">
+  <head>
+    
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width,initial-scale=1">
+      
+      
+      
+      
+        <link rel="prev" href="../Welcome/">
+      
+      
+      
+      <link rel="icon" href="../assets/images/favicon.png">
+      <meta name="generator" content="mkdocs-1.6.0, mkdocs-material-9.5.26">
+    
+    
+      
+        <title>Rules - Baugus-LEGO-Game</title>
+      
+    
+    
+      <link rel="stylesheet" href="../assets/stylesheets/main.6543a935.min.css">
+      
+        
+        <link rel="stylesheet" href="../assets/stylesheets/palette.06af60db.min.css">
+      
+      
+
+
+    
+    
+      
+    
+    
+      
+        
+        
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,300i,400,400i,700,700i%7CRoboto+Mono:400,400i,700,700i&display=fallback">
+        <style>:root{--md-text-font:"Roboto";--md-code-font:"Roboto Mono"}</style>
+      
+    
+    
+    <script>__md_scope=new URL("..",location),__md_hash=e=>[...e].reduce((e,_)=>(e<<5)-e+_.charCodeAt(0),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
+    
+      
+
+    
+    
+    
+  </head>
+  
+  
+    
+    
+      
+    
+    
+    
+    
+    <body dir="ltr" data-md-color-scheme="default" data-md-color-primary="pink" data-md-color-accent="indigo">
+  
+    
+    <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
+    <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
+    <label class="md-overlay" for="__drawer"></label>
+    <div data-md-component="skip">
+      
+        
+        <a href="#introduction" class="md-skip">
+          Skip to content
+        </a>
+      
+    </div>
+    <div data-md-component="announce">
+      
+    </div>
+    
+    
+      
+
+  
+
+<header class="md-header md-header--shadow" data-md-component="header">
+  <nav class="md-header__inner md-grid" aria-label="Header">
+    <a href=".." title="Baugus-LEGO-Game" class="md-header__button md-logo" aria-label="Baugus-LEGO-Game" data-md-component="logo">
+      
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54Z"/></svg>
+
+    </a>
+    <label class="md-header__button md-icon" for="__drawer">
+      
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M3 6h18v2H3V6m0 5h18v2H3v-2m0 5h18v2H3v-2Z"/></svg>
+    </label>
+    <div class="md-header__title" data-md-component="header-title">
+      <div class="md-header__ellipsis">
+        <div class="md-header__topic">
+          <span class="md-ellipsis">
+            Baugus-LEGO-Game
+          </span>
+        </div>
+        <div class="md-header__topic" data-md-component="header-topic">
+          <span class="md-ellipsis">
+            
+              Rules
+            
+          </span>
+        </div>
+      </div>
+    </div>
+    
+      
+        <form class="md-header__option" data-md-component="palette">
+  
+    
+    
+    
+    <input class="md-option" data-md-color-media="(prefers-color-scheme: light)" data-md-color-scheme="default" data-md-color-primary="pink" data-md-color-accent="indigo"  aria-label="Switch to dark mode"  type="radio" name="__palette" id="__palette_0">
+    
+      <label class="md-header__button md-icon" title="Switch to dark mode" for="__palette_1" hidden>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M17 6H7c-3.31 0-6 2.69-6 6s2.69 6 6 6h10c3.31 0 6-2.69 6-6s-2.69-6-6-6zm0 10H7c-2.21 0-4-1.79-4-4s1.79-4 4-4h10c2.21 0 4 1.79 4 4s-1.79 4-4 4zM7 9c-1.66 0-3 1.34-3 3s1.34 3 3 3 3-1.34 3-3-1.34-3-3-3z"/></svg>
+      </label>
+    
+  
+    
+    
+    
+    <input class="md-option" data-md-color-media="(prefers-color-scheme: dark)" data-md-color-scheme="slate" data-md-color-primary="pink" data-md-color-accent="blue"  aria-label="Switch to light mode"  type="radio" name="__palette" id="__palette_1">
+    
+      <label class="md-header__button md-icon" title="Switch to light mode" for="__palette_0" hidden>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M17 7H7a5 5 0 0 0-5 5 5 5 0 0 0 5 5h10a5 5 0 0 0 5-5 5 5 0 0 0-5-5m0 8a3 3 0 0 1-3-3 3 3 0 0 1 3-3 3 3 0 0 1 3 3 3 3 0 0 1-3 3Z"/></svg>
+      </label>
+    
+  
+</form>
+      
+    
+    
+      <script>var media,input,key,value,palette=__md_get("__palette");if(palette&&palette.color){"(prefers-color-scheme)"===palette.color.media&&(media=matchMedia("(prefers-color-scheme: light)"),input=document.querySelector(media.matches?"[data-md-color-media='(prefers-color-scheme: light)']":"[data-md-color-media='(prefers-color-scheme: dark)']"),palette.color.media=input.getAttribute("data-md-color-media"),palette.color.scheme=input.getAttribute("data-md-color-scheme"),palette.color.primary=input.getAttribute("data-md-color-primary"),palette.color.accent=input.getAttribute("data-md-color-accent"));for([key,value]of Object.entries(palette.color))document.body.setAttribute("data-md-color-"+key,value)}</script>
+    
+    
+    
+      <label class="md-header__button md-icon" for="__search">
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.516 6.516 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5Z"/></svg>
+      </label>
+      <div class="md-search" data-md-component="search" role="dialog">
+  <label class="md-search__overlay" for="__search"></label>
+  <div class="md-search__inner" role="search">
+    <form class="md-search__form" name="search">
+      <input type="text" class="md-search__input" name="query" aria-label="Search" placeholder="Search" autocapitalize="off" autocorrect="off" autocomplete="off" spellcheck="false" data-md-component="search-query" required>
+      <label class="md-search__icon md-icon" for="__search">
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.516 6.516 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5Z"/></svg>
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11h12Z"/></svg>
+      </label>
+      <nav class="md-search__options" aria-label="Search">
+        
+        <button type="reset" class="md-search__icon md-icon" title="Clear" aria-label="Clear" tabindex="-1">
+          
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M19 6.41 17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12 19 6.41Z"/></svg>
+        </button>
+      </nav>
+      
+    </form>
+    <div class="md-search__output">
+      <div class="md-search__scrollwrap" tabindex="0" data-md-scrollfix>
+        <div class="md-search-result" data-md-component="search-result">
+          <div class="md-search-result__meta">
+            Initializing search
+          </div>
+          <ol class="md-search-result__list" role="presentation"></ol>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+    
+    
+  </nav>
+  
+</header>
+    
+    <div class="md-container" data-md-component="container">
+      
+      
+        
+          
+        
+      
+      <main class="md-main" data-md-component="main">
+        <div class="md-main__inner md-grid">
+          
+            
+              
+              <div class="md-sidebar md-sidebar--primary" data-md-component="sidebar" data-md-type="navigation" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+
+
+<nav class="md-nav md-nav--primary" aria-label="Navigation" data-md-level="0">
+  <label class="md-nav__title" for="__drawer">
+    <a href=".." title="Baugus-LEGO-Game" class="md-nav__button md-logo" aria-label="Baugus-LEGO-Game" data-md-component="logo">
+      
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54Z"/></svg>
+
+    </a>
+    Baugus-LEGO-Game
+  </label>
+  
+  <ul class="md-nav__list" data-md-scrollfix>
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../Welcome/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Welcome
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+    
+  
+  
+  
+    <li class="md-nav__item md-nav__item--active">
+      
+      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
+      
+      
+        
+      
+      
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          
+  
+  <span class="md-ellipsis">
+    Rules
+  </span>
+  
+
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <a href="./" class="md-nav__link md-nav__link--active">
+        
+  
+  <span class="md-ellipsis">
+    Rules
+  </span>
+  
+
+      </a>
+      
+        
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#backstory" class="md-nav__link">
+    <span class="md-ellipsis">
+      Backstory
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#object-of-the-game" class="md-nav__link">
+    <span class="md-ellipsis">
+      Object of the Game
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+      
+    </li>
+  
+
+    
+  </ul>
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+            
+              
+              <div class="md-sidebar md-sidebar--secondary" data-md-component="sidebar" data-md-type="toc" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#backstory" class="md-nav__link">
+    <span class="md-ellipsis">
+      Backstory
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#object-of-the-game" class="md-nav__link">
+    <span class="md-ellipsis">
+      Object of the Game
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+          
+          
+            <div class="md-content" data-md-component="content">
+              <article class="md-content__inner md-typeset">
+                
+                  
+
+
+<h1 id="introduction">Introduction<a class="headerlink" href="#introduction" title="Permanent link">&para;</a></h1>
+<h2 id="backstory">Backstory<a class="headerlink" href="#backstory" title="Permanent link">&para;</a></h2>
+<p>The age of humans is dawning. Humanity has discovered radical new ways to cultivate the natural landscape rather than simply exploit its bounty. Your tribe is among the first to master these techniques enabling a new, settled lifestyle and fueling a population explosion that would have been impossible as hunter-gatherers. As chief you have positioned your band to take full advantage of this technological revolution by positioning yourselves in a verdant landscape, ripe for the taking. </p>
+<p>But you are not alone. Other tribes have discovered this region and decided to settle down. The history of your people, of this region, and humanity will be determined by how you develop your civilization. What kind of people will you be? How will you survive and thrive in this new land? Your people will face many challenges. Only with wise and effective leadership will your civilization prosper and prevail.</p>
+<p>Here in the cradle of civilization, your people will write the first chapter in human history. Will it be worthy of memory? </p>
+<h2 id="object-of-the-game">Object of the Game<a class="headerlink" href="#object-of-the-game" title="Permanent link">&para;</a></h2>
+<p>To become the preeminent civilization on earth. To accomplish this you must achieve the highest victory point score at the end of the age. Points are earned by building a more developed civilization than your competitors as measured in various categories. </p>
+<p>From humble beginnings (generally one village and a population of two) through population growth, increasing cultivation of natural resources, wise investments in infrastructure, and geographic expansion your tribe will become a regional civilization with intertwined political and economic ties to your neighbors. See <a href="#iv-end-of-the-age">#IV. End of the Age</a> for a comprehensive treatment of game end triggers and scoring.</p>
+<h1 id="set-up">Set up<a class="headerlink" href="#set-up" title="Permanent link">&para;</a></h1>
+<h2 id="note-on-game-mediums">Note on Game Mediums<a class="headerlink" href="#note-on-game-mediums" title="Permanent link">&para;</a></h2>
+<p>Payers may use any grid-based three-dimensional modeling system they prefer (physical or digital) to set up a board and pieces for this game. We recommend using Lego, but the game may be played on other systems. All measurements in this guidebook are in terms of Lego studs.</p>
+<p>For the purposes of these instructions we consider a single Lego plate to represent a one stud distance in the vertical dimension while each rounded ‘stud’ represents a one stud distance in the horizontal dimension. Using this convention, a standard rectangular Lego brick is two studs wide, four studs long, and three studs high (2x4x3).</p>
+<p>Some terrain may be impassable. When using Lego, denote impassible terrain with blocks or other fixtures on the board that do not have studs on their top side. Playpeices may not be placed on the board in places where there are no studs to “lock into.”</p>
+<p>[insert diagram detailing stud measurements here]</p>
+<h2 id="create-a-landscape-board">Create a Landscape (Board)<a class="headerlink" href="#create-a-landscape-board" title="Permanent link">&para;</a></h2>
+<p>To play the game you will need to create a landscape. We recommend including a diversity of terrain: grasslands and woodlands; plains and hills; mountains and valleys; and rivers, lakes, and seas. We sometimes create impassible cliffs, picturesque waterfalls, and even active volcanos with lava flowing down their side. Be creative, have fun, and make an interesting natural landscape to explore and develop. Creating the landscape is part of the game and can be a solo or collaborative effort, as desired. Provided clear rules are established within your playgroup prior to starting the game, groups are welcome to add new terrain types to those listed below.</p>
+<p>Landscapes can be as large or small as you desire, but must be large enough to accommodate the number of civilizations to be developed (usually, one per player). We recommend a 32 x 32 stud map as a minimum sized landscape for a two-civilization game.</p>
+<h3 id="terrain-types">Terrain Types<a class="headerlink" href="#terrain-types" title="Permanent link">&para;</a></h3>
+<ol>
+<li><strong>Grassland (green):</strong> the default land terrain. Grassland can be cultivated in fields to product wheat. ^72e65a</li>
+<li><strong>Woodland:</strong> a single tree represents a grove which occupies a 3x3 square area with the trunk of the tree at its center (see diagram). Adjacent groves together comprise a forest. Trees are valuable resources to be exploited but also represent obstacles to movement and other kinds of development, so don’t go overboard on trees.</li>
+<li><strong>Rock (gray):</strong> a rock cliff of at least 2 studs tall and two studs wide is required for a quarry. Rock, and locations to quarry it, is a strategic resource mid and late game.</li>
+<li><strong>Water (blue):</strong> waterways comprising rivers, lakes, and seas become transportations arteries and fisheries when paired with infrastructure. ^7dede9<ol>
+<li>Rivers are at most two studs wide and are connected to a larger body of water on at least one end. </li>
+<li>Lakes are either wider than rivers or are not connected to another larger body of water.</li>
+<li>Seas border the edge of the board on at least one side.</li>
+</ol>
+</li>
+</ol>
+<p>We recommend that first-time players devote a majority of the landscape to grassland, but also have ample water, stone, and woodland accessible to exploit. More advanced players may limit or even eliminate some terrain types (and the resources they produce) to create scarcity and increase the challenge of developing a successful civilizations.</p>
+<h2 id="set-the-stage">Set the stage<a class="headerlink" href="#set-the-stage" title="Permanent link">&para;</a></h2>
+<p>With the board completed each player, in turn order, places a village on the landscape in a legal and desired location. Along with the village each civilization begins with two workers that may be placed in or directly adjacent to the village.</p>
+<h1 id="gameplay">Gameplay<a class="headerlink" href="#gameplay" title="Permanent link">&para;</a></h1>
+<h2 id="general-overview">General Overview<a class="headerlink" href="#general-overview" title="Permanent link">&para;</a></h2>
+<p>This is an open-world, resource management game of politics and development. The base rules outline turn order, legal operations, and definitions of resources and units.</p>
+<p>This is a resource management game, everything is tradable and there is no bank! Trades may take place during any phase of a turn, but normal rules for when certain assets can be relocated still apply durning trades (e.g. resources may only be transferred during the <a href="#gather">#Gather</a> and <a href="#consume">#Consume</a> phases).</p>
+<h3 id="order-of-play">Order of Play<a class="headerlink" href="#order-of-play" title="Permanent link">&para;</a></h3>
+<p>The game is played in a series of rounds that are comprised of the following phases:</p>
+<ol>
+<li><a href="#gather">#Gather</a></li>
+<li><a href="#move">#Move</a></li>
+<li><a href="#build">#Build</a></li>
+<li><a href="#deploy">#Deploy</a></li>
+<li><a href="#consume">#Consume</a></li>
+<li><a href="#populate">#Populate</a></li>
+</ol>
+<p>Within phases players take turns preforming the prescribed actions beginning with the starting player. Play passes to the next phase when each player has taken their turn within the phase. Once all phases in a round are complete, a new round begins with the starting player who was to the left of the previous round’s starting player. </p>
+<h3 id="gather">Gather<a class="headerlink" href="#gather" title="Permanent link">&para;</a></h3>
+<p>During this phase players earn income from various sources and “gather” it to a chosen location. </p>
+<table>
+<thead>
+<tr>
+<th>Order</th>
+<th>Type</th>
+<th>Subtype</th>
+<th>Source</th>
+<th>Quantity</th>
+<th>Recommended Color</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>1</td>
+<td>Actions</td>
+<td></td>
+<td>warrior</td>
+<td>1 per warrior</td>
+<td>Orange</td>
+</tr>
+<tr>
+<td>2</td>
+<td>Wheat</td>
+<td><em>Resource</em></td>
+<td>field</td>
+<td>2 per field</td>
+<td>Tan (rounded)</td>
+</tr>
+<tr>
+<td>4</td>
+<td>Wood</td>
+<td><em>Resource</em></td>
+<td>tree</td>
+<td>1 per tree</td>
+<td>Brown (rounded)</td>
+</tr>
+<tr>
+<td>3</td>
+<td>Fish</td>
+<td><em>Resource</em></td>
+<td>water</td>
+<td>2 per fisher</td>
+<td>Light Blue</td>
+</tr>
+<tr>
+<td>5</td>
+<td>Stone</td>
+<td><em>Resource</em></td>
+<td>quarry</td>
+<td>1 per mason</td>
+<td>Grey</td>
+</tr>
+<tr>
+<td>6</td>
+<td>Promotions</td>
+<td></td>
+<td>tower</td>
+<td>see <a href="#promotions">#Promotions</a></td>
+<td>N/A</td>
+</tr>
+<tr>
+<td>7</td>
+<td>Industry</td>
+<td></td>
+<td>mill</td>
+<td>see <a href="#industry">#Industry</a></td>
+<td>see <a href="#industry">#Industry</a></td>
+</tr>
+</tbody>
+</table>
+<h4 id="actions">Actions<a class="headerlink" href="#actions" title="Permanent link">&para;</a></h4>
+<p>Players receive one action as a base income. Players receive one additional action per warrior under their command at the beginning of the <a href="#gather">#Gather</a> phase. These actions are spent in the <a href="#move">#Move</a>, <a href="#build">#Build</a>, and <a href="#deploy">#Deploy</a> phases as move, build, or deploy actions respectively. Typically actions gathered by a player are represented by orange tokens held by that player until they are used and returned to the stockpile. Actions can be traded between players linked by trade routes (see <a href="#trade-movement-of-resources">#Trade Movement of Resources</a>), but never stolen in raids or blocked by blockades. However, actions may not be kept between turns. At the consume phase any actions not spent in that round are returned to the stockpile.</p>
+<h4 id="resources">Resources<a class="headerlink" href="#resources" title="Permanent link">&para;</a></h4>
+<p>Resources are Wheat, Fish, Wood, Stone. Quantities of these goods are measured in units of 1 ”stud” typically represented, off-board, by a 1x1 brick of a specified color for each resource. </p>
+<p>Resources, unlike actions, are “stored” at a particular location on the board, typically in a built structure—represented by placing the resources in that structure’s off-board baseplate. Consequently, resources are restricted in where and when they can be “relocated” and are subject to seizure or blockade by unfriendly actions of other players. They also maybe stored over turns.</p>
+<p>Players earn resources for having workers engaged in cultivating the natural landscape. Each resource has a unique type of landform and cultivation method:</p>
+<ul>
+<li>
+<p><strong>Fields —&gt; Wheat:</strong> A field is a contiguous 8-stud patch of <a href="#72e65a">grassland</a> that is claimed and cultivated by a single worker at the start of the <a href="#gather">#Gather</a> phase. Each cultivated field produces 2 studs of wheat each Gather phase. Place a tan plate over the 8 studs that comprise a claimed field as a “marker” to identify and distinguish it from regular, uncultivated grassland.</p>
+<ul>
+<li>
+<p>Studs separated by <em>more than</em> one stud of elevation difference or only diagonally adjacent are not considered contiguous for purposes of fields. </p>
+</li>
+<li>
+<p>A field claimed by one worker may not overlap with fields claimed by another worker. </p>
+</li>
+<li>
+<p>Partial fields and fields comprised of disconnected parts do not produce wheat during the gather phase.  </p>
+</li>
+<li>
+<p>For purposes of calculating movement (see <a href="#move">#Move</a>) ignore the additional elevation added to the board by the tan “marker” plate.</p>
+</li>
+<li>
+<p>The boundaries of fields can be changed at anytime between phases of a round, provided the field still meets the criteria above.</p>
+</li>
+</ul>
+</li>
+<li>
+<p><strong>Tree —&gt; Wood:</strong> A tree occupies a 9-stud square with its trunk at the center and produces one stud of wood when cultivated. To cultivate a tree, a worker must be placed within the 9-stud footprint of the tree (usually on top of the tree itself). </p>
+<ul>
+<li>
+<p>For purposes of distance calculations (e.g. for calculating combat range) a worker placed anywhere in the tree’s 9-stud footprint is considered to be located at the trunk of the tree (the center stud).</p>
+</li>
+<li>
+<p>For purposes of movement, a pawn is considered “in” the tree when they land on one of the 9 footprint studs. When they do, their move action ends immediately. When moving out of a tree, studs of movement can be calculated as starting from the edge of the 9-stud footprint.</p>
+</li>
+<li>
+<p>The one exception to the 9-stud footprint is when there is a <em>fall</em> in elevation of 3 studs or more from the trunk of the tree to one or more of the 8 perimeter studs. In such a case, a stud 3 studs or more <em>below</em> the trunk is not counted as part of the tree’s footprint.</p>
+</li>
+</ul>
+</li>
+<li>
+<p><strong>Fishery —&gt; Fish:</strong> Water studs may be fished to produce two studs of fish each. To be fished, a stud of water must have a worker located directly adjacent to it on an eligible piece of infrastructure (see below for list). Each worker may only fish one stud water and increasing the number of workers fishing a stud does not increase the number of fish it produces. </p>
+<ul>
+<li>
+<p><em>Villages and Village Improvements:</em> Workers in villages and village improvements (even when not directly connected to a village) may fish studs of water directly adjacent to the village or improvement provided that the worker is not already engaged in another productive capacity.</p>
+</li>
+<li>
+<p><em>Bridges:</em> Workers on a bridge may fish the water studs directly adjacent to the bridge, but not the water stud(s) underneath of the bridge. </p>
+</li>
+<li>
+<p><em>Boats:</em> Workers on a boat may fish the studs directly adjacent to the current location of the boat. </p>
+</li>
+</ul>
+</li>
+<li>
+<p><strong>Quarry —&gt; Stone:</strong> A quarry is a 1 stud by 2 stud piece of infrastructure that is placed on two studs bordering a “cliff” made of [[^rock|rock]] that is at least 2 studs tall and 2 studs wide with a level space beneath it. Each quarry can support up to two workers placed within the quarry. Each of these workers produces 1 stone during the <a href="#gather">#Gather</a> phase.  ^d94797</p>
+</li>
+</ul>
+<p>When earned as income a resource is created at the location of the worker who gathered it. To be used or stored long term it must be moved. The movement of resources is governed by trade rules.</p>
+<h5 id="trade-movement-of-resources">Trade: Movement of Resources<a class="headerlink" href="#trade-movement-of-resources" title="Permanent link">&para;</a></h5>
+<p>Resources can move freely along trade routes as a free action during either the <a href="#gather">#Gather</a> phase (after all income has been collected) or the <a href="#consume">#Consume</a> phase. There are two types of trade routes:</p>
+<ul>
+<li>
+<p><strong>Infrastructure-Based Trade Routes:</strong> Trade routes exist along connected roads, boats, and buildings. For instance, if Village A is connected to a lake via a road, there is a sailboat on the lake, and Village B is touching a storehouse that is touching the lake, then villages A and B are connected via a general-purpose, infrastructure-based trade route and can move any resource between them subject to the usual rules on timing and blockades. Note that the sail boat does not have to be touching either the storehouse or the road for the trade route to be established. The general principle is that if two locations are connected in such a way that a worker could move between them using built infrastructure the entire way (i.e. no movement across open land), then a trade route exists between the two locations. </p>
+</li>
+<li>
+<p><strong>Resource-Specific Trade Routs:</strong> By convention, trade routes for specific resources also exist through contiguous, actively cultivated harvesting areas for that resource. For example wood may move freely (as on a trade route) through any number of connected trees (9-stud footprints directly adjacent to each other), provided that they are each actively cultivated. Similarly, while wheat may not move through trees in this way, wheat can be transported through adjacent, actively cultivated, contiguous fields. </p>
+</li>
+</ul>
+<p>A trade route may be comprised of a combination of these two types. However, note that if a trade route between two places depends on a Resource-Specific Trade Route segment then only that resource may be moved through that segment of the trade route. </p>
+<h6 id="blockades">Blockades<a class="headerlink" href="#blockades" title="Permanent link">&para;</a></h6>
+<p>Trade routes are subject to blockade by the military influence of unfriendly civilizations. Units that can project combat range (either of themselves or aided by defensive infrastructure) can restrict the movement of resources through studs within their range. For example a warrior whose range covers a road may restrict (as a passive act) the movement of resources along that road, effectively blockading that section of any trade routes that depended on road in question. This same effect exists when a unit has a combat range only because of fortification bonuses, as in the case of a worker guarding a gate. </p>
+<h6 id="storage-of-resources">Storage of Resources<a class="headerlink" href="#storage-of-resources" title="Permanent link">&para;</a></h6>
+<p>While resources may <em>move</em> freely along trade routes, they may only be stored in legal locations. These are:</p>
+<table>
+<thead>
+<tr>
+<th>Location</th>
+<th>Capacity</th>
+<th>Notes</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Village</td>
+<td>4</td>
+<td>Can store between rounds</td>
+</tr>
+<tr>
+<td>Storehouse</td>
+<td>8</td>
+<td>Can store between rounds</td>
+</tr>
+<tr>
+<td>Mill</td>
+<td>2*</td>
+<td>Can “mill” up to 2 studs of some resources between rounds. See <a href="#industry">#Industry</a> below for details.</td>
+</tr>
+<tr>
+<td>Workers/Warriors</td>
+<td>2</td>
+<td>A worker/warrior may only store resources between rounds when that worker/warrior is not connected to another storage location via a trade route</td>
+</tr>
+</tbody>
+</table>
+<h4 id="promotions">Promotions<a class="headerlink" href="#promotions" title="Permanent link">&para;</a></h4>
+<p>A worker located in a tower at the beginning of the <a href="#gather">#Gather</a> phase may be promoted to a warrior. Each tower may only promote one worker per round. The new warrior does not produce an Action during this gather phase since actions are collected prior to promotions taking place. </p>
+<h4 id="industry">Industry<a class="headerlink" href="#industry" title="Permanent link">&para;</a></h4>
+<p>Mills have a unique capacity to “mill” resources, thereby doubling them and converting them from an “unmilled” version of the resource to a milled version.</p>
+<p>Only <strong>wood</strong> and <strong>wheat</strong> may be milled. Once a stud of the resource is milled, that same stud cannot be milled again. By convention we use rounded bricks/studs to denote unmilled wood and/or wheat and squared studs to represent milled.</p>
+<p>Mills can only mill one type of resource at a time (i.e. no partial mixtures of wood and wheat during a turn), the resource to be milled must be located in the mill at the beginning of the gather phase, and there must be free storage capacity in the mill to accept the newly created resource.</p>
+<p><code>Example 1: Josephine has a mill with one unmilled wood in it at the beginning of the Gather phase. When it is time to collect industrial income, she may replace that one unmilled wood with two milled wood. The newly milled wood must be initially placed in the mill.</code></p>
+<p><code>Example 2: Marquette has a mill with one unmilled wood and one unmilled wheat. He may not mill any resources with this mill this round since the mill is currently storing a mixture of resources.</code></p>
+<h3 id="move">Move<a class="headerlink" href="#move" title="Permanent link">&para;</a></h3>
+<p>During the move phase, players may spend actions to move workers across the landscape. One action of movement can be used to move a single pawn up to 4 studs of open terrain. Pawns may not end their movement on the same stud occupied by another player’s stud. </p>
+<h6 id="hills">Hills<a class="headerlink" href="#hills" title="Permanent link">&para;</a></h6>
+<p>Vertical elevation changes count towards the 4 stud limit. See <a href="#note-on-game-substrates">#Note on Game Substrate(s)</a> for more information about calculating distances. There are four exceptions to this rule: </p>
+<ul>
+<li>
+<p><strong>Downhill Advantage:</strong> When moving to a lower elevation, if a worker would end their allotted 4 studs of movement “hanging” in mid air (i.e. they were not able to reach the lower level within 4 studs), they may be placed on the lower level surface as though they had been able to reach it. 
+    `Example: Rodrick wants to move his worker down a hill that requires 2 studs of horizontal movement and 3 studs of vertical drop. This would normally require 2 actions (since &gt; 4 studs of movement), however, if 2 studs of horizontal movement and 2 studs of vertical movement (one action’s worth) would leave his worker “hanging” above the ground, he may complete the remaining stud of downward movement as a free action.  ^062015</p>
+</li>
+<li>
+<p><strong>Cliff Climbing Limit:</strong> A cliff of 4 or more studs high is always impassible (up or down) even if the player has enough actions to spend to get the worker to the top. </p>
+</li>
+<li>
+<p><strong>Building Overlap:</strong> When moving a worker within or between friendly buildings (controlled by you or a friendly civilization), elevation differences are not counted as long as the buildings physically touch each other. </p>
+</li>
+<li>
+<p><strong>Smooth Roads:</strong> While moving onto, along, or off of a road an elevation difference of no more than 1 stud may be ignored. </p>
+</li>
+</ul>
+<h6 id="improved-paths-infrastructure">Improved Paths: Infrastructure<a class="headerlink" href="#improved-paths-infrastructure" title="Permanent link">&para;</a></h6>
+<p>Some infrastructure can used to modify the movement of a pawn across the landscape.</p>
+<table>
+<thead>
+<tr>
+<th>Infrastructure</th>
+<th>Multiplier</th>
+<th>Important Notes</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Road</td>
+<td>x2</td>
+<td>Vertical inclines of a single stud may be ignored</td>
+</tr>
+<tr>
+<td>Wall</td>
+<td>x2</td>
+<td>Vertical inclines of a single along a wall may be ignored, but vertical distances from the ground to the top of a wall are counted.</td>
+</tr>
+<tr>
+<td>Canoe</td>
+<td>x3</td>
+<td>Must stay within 2 studs of land</td>
+</tr>
+<tr>
+<td>Sailboat</td>
+<td>x3</td>
+<td>May only be used on Bodies of water at least 2 studs wide. Sailboats may transport mixed groups of units (workers and warriors) using either a move action or a deploy action.</td>
+</tr>
+</tbody>
+</table>
+<p>Moving between a boat and a land stud directly adjacent to the boat is a free action as part of a move action. </p>
+<p>A single move action may move a worker across multiple types of infrastructure. The general rule is to keep track of the base movement rather than the studs given by infrastructure and to round up when partially using an allotted stud of movement on a given infrastructure type. 
+<code>Example: Janice may move her worker by canoe for 6 studs using up 2 studs of base movement allotted by one move action, leaving her able to spend 2 additional base movement studs on traveling by road which translates to 4 studs of movement on the road (provided that her canoe is directly adjacent to the road). If instead she had taken 7 studs of canoe travel to reach the road, she would have spent a total of 3 (7/3 rounded up) studs of base movement, leaving only 1 for the road (translating into only 2 studs of road movement).</code></p>
+<p>Distance and movement rules can get tricky when players get fancy. In all cases of disputes that cannot be cleared up by consulting these rules, the dispute should be settled by a <del>fistfight</del> vote among the disinterested players. </p>
+<h6 id="group-movement">Group Movement<a class="headerlink" href="#group-movement" title="Permanent link">&para;</a></h6>
+<p>Workers occupying the same physical stud on the board may be moved together with one move action. When doing so over land (roads or open terrain), the adjusted number of allotted studs (i.e. after multiplying by any applicable road modifier) is reduced by <em>n</em>-1 where <em>n</em> is the number of workers moved together. </p>
+<p>A whole boat may be moved, along with all units aboard, with a single move action. </p>
+<h6 id="crossing-water">Crossing Water<a class="headerlink" href="#crossing-water" title="Permanent link">&para;</a></h6>
+<p>When crossing water without a boat, each stud of water moved costs three studs of base movement. A pawn may never land on a water stud that is not directly adjacent to a land stud. Pawns remaining on water studs at the end of the round are sent into “critical condition” at the nearest friendly village. </p>
+<h3 id="build">Build<a class="headerlink" href="#build" title="Permanent link">&para;</a></h3>
+<p>During this step players may use an action to build infrastructure. Only workers can use build actions. </p>
+<h6 id="legal-build-sites">Legal Build Sites<a class="headerlink" href="#legal-build-sites" title="Permanent link">&para;</a></h6>
+<p>A worker can build on any stud that is (1) directly adjacent to their current position, (2) directly adjacent to a village or boat that the worker is in, or (3) directly adjacent to another piece of infrastructure that was built during the same phase. </p>
+<p>Buildings may be built on top of roads. Otherwise, no structure may be built on the same physical studs already occupied by an existing structure. Buildings cannot be built on blockaded studs. </p>
+<h6 id="village-improvement">Village Improvement<a class="headerlink" href="#village-improvement" title="Permanent link">&para;</a></h6>
+<p>Some buildings may function as a village improvement (see below for which ones). To do so, they must be built physically touching the village they are improving. For purposes of control, movement, and distance a village and its improvements are treated as a single “village.”</p>
+<h6 id="boats">Boats<a class="headerlink" href="#boats" title="Permanent link">&para;</a></h6>
+<p>Boats are a special class of infrastructure that can move across water. As part of a <a href="#move">#Move</a> or <a href="#deploy">#Deploy</a> action, a worker/warrior may move a boat, and all that the boat is carrying, across water. Using a boat grants a special movement modifier. Typically a multiplier of 3x the base movement. Each type of boat is subject to certain navigational limits. Additionally, movement with boats is not subject to the <a href="#group-movement">#Group Movement</a> penalty. See below and consult the <a href="#move">#Move</a> rules for more details.</p>
+<h6 id="fortifications">Fortifications<a class="headerlink" href="#fortifications" title="Permanent link">&para;</a></h6>
+<p>Fortifications are a special class of infrastructure. Each type of fortification can be built either by itself, or physically touching another fortification to create a fortress. Fortifications as a class have several special attributes:</p>
+<ol>
+<li>
+<p>Fortifications present a physical barrier on the landscape. When calculating movement onto or over fortifications, the height of the fortification is taken into account. </p>
+</li>
+<li>
+<p>The height of a fortification is not taken into account when measuring combat distance between a garrisoned pawn and a pawn on the ground.</p>
+</li>
+<li>
+<p>Fortifications block the combat range. Two pawns located on opposite sides of a fortification (and not themselves located “in” the fortification) are considered out of combat range of each other, even if they would otherwise be in range of each other.</p>
+</li>
+<li>
+<p>Some fortifications give range and/or strength bonuses to garrisoned pawns.</p>
+</li>
+</ol>
+<h6 id="control-of-infrastructure">Control of Infrastructure<a class="headerlink" href="#control-of-infrastructure" title="Permanent link">&para;</a></h6>
+<p>By default newly built infrastructure belongs to and is controlled by the player who built it. Players retain ownership of infrastructure unless they (a) give it to another player, or (b) lose control. A player loses control of infrastructure when the only pawns physically in the structure are unfriendly ones. When this happens, the unfriendly player(s) seize ownership. There are two exceptions to this rule:</p>
+<ol>
+<li>
+<p>Roads are not owned by any player.</p>
+</li>
+<li>
+<p>Village residents are naturally loyal to its owner. Therefore, for a village to change ownership, the owner must be out of control for an entire round of play as measured from the end of one <a href="#populate">#Populate</a> phase to the next. While control is lost, lower the village’s flag to half-mast, it cannot produce more pawns, and it is blockaded—resources cannot be moved into, out of, or through the village. </p>
+</li>
+</ol>
+<p>When taking ownership of a structure, the new player also gains control and ownership of any resources stored in the structure. </p>
+<h6 id="infrastructure-types">Infrastructure Types<a class="headerlink" href="#infrastructure-types" title="Permanent link">&para;</a></h6>
+<p><strong>Palace:     12 Stone, 7 Actions</strong></p>
+<ul>
+<li>
+<p>A 2 x 3 stud structure consisting of 6 stone columns, each costing 1 stone and 1 action to build, capped by a roof costing 6 stone and 1 action. </p>
+</li>
+<li>
+<p>A citadel may be built over the course of several build phases by splitting up build actions across rounds. </p>
+</li>
+<li>
+<p>All 6 columns must be in place before the roof may be constructed.</p>
+</li>
+<li>
+<p>A citadel is not considered complete until all 12 stone and 7 actions have been spent.</p>
+</li>
+</ul>
+<p><strong>Village:   8 Wood, 1 Action</strong></p>
+<ul>
+<li>
+<p>Villages have two parts, a 1 x 2 stud town hall and a 1 x 1 stud “dwelling.” </p>
+<ul>
+<li>
+<p>These two parts must be directly adjacent to each other, but may be placed so as to create a single “line” or an “L”-shape. </p>
+</li>
+<li>
+<p>A vertical elevation difference between the two parts is allowed, but both parts must be physically touching each other.</p>
+</li>
+</ul>
+</li>
+<li>
+<p><em>Storage:</em> A village may store up to 4 studs of resources between rounds. </p>
+</li>
+</ul>
+<p><strong>Storehouse:  2 Wood, 1 Action</strong></p>
+<ul>
+<li>
+<p>Storehouses are a 1 x 2 stud structure.</p>
+</li>
+<li>
+<p><em>Village Improvement:</em> A storehouse may function as a <a href="#village-improvement">#Village Improvement</a>, or a free standing structure. </p>
+</li>
+<li>
+<p><em>Storage:</em> A storehouse may store up to 8 studs of resources between rounds. </p>
+</li>
+</ul>
+<p><strong>Water Mill:  4 Wood, 1 Action</strong></p>
+<ul>
+<li>
+<p>Mills are a 2 x 2 stud structure that has a “waterwheel” on one edge. To function a mill must be placed so that both studs on the side with the waterwheel are directly adjacent to a river (see <a href="#7dede9">water</a> for more definitions of rivers) and not more than 1 stud above the surface of the river. </p>
+</li>
+<li>
+<p><em>Industry:</em> Mills can be used to multiply certain resources through industry. See the rules for <a href="#industry">#Industry</a> in the <a href="#gather">#Gather</a> section for more details. </p>
+</li>
+<li>
+<p><em>Village Improvement:</em> A mill may function as a <a href="#village-improvement">#Village Improvement</a>, or a free standing structure. </p>
+</li>
+</ul>
+<p><strong>Canoe:   2 Wood, 1 Action</strong></p>
+<ul>
+<li>
+<p><em>Boat</em></p>
+</li>
+<li>
+<p><em>Navigation Limit:</em> May only be used in water that is at most 2 studs away from land.</p>
+</li>
+<li>
+<p><em>Carrying Capacity:</em> 1 pawn.</p>
+</li>
+</ul>
+<p><strong>Sailboat:   4 Wood, 1 Action</strong></p>
+<ul>
+<li>
+<p><em>Boat</em></p>
+</li>
+<li>
+<p><em>Navigation Limit:</em> Sailboats may not the used on bodies of water that are only 1 stud wide.</p>
+</li>
+<li>
+<p><em>Carrying Capacity:</em> 4 pawns</p>
+</li>
+</ul>
+<p><strong>Road Segment:   1 Wood , 1 Action</strong></p>
+<ul>
+<li>
+<p>A single stud of wood and one action buys four, 1x1x1 stud segments. Provided that they are built in legal locations relative to the worker using the build action, each of the 4 studs may be placed in locations that are not adjacent to each other. </p>
+</li>
+<li>
+<p><em>Landfill:</em> Road segments may be used to level out uneven terrain, either singly or in stacks. This may be useful in creating a level space to build a larger structure. It is also useful to build “ramps” up steep cliffs.</p>
+</li>
+<li>
+<p><em>Bridges:</em> Roads may be used to bridge water or other impassable terrain.</p>
+<ul>
+<li>
+<p>Boats passing under the bridge must count the studs the bridge occupies as part of their movement, but they may not end their movement with any part of them physically under the bridge. </p>
+</li>
+<li>
+<p>Bridges may span 2 studs of water or impassable terrain at a time. To make a longer bridge, pillars can be built every third stud by stacking 1x1x1 road segments to the required height. When constructing a pillar for a water crossing, the water should be considered 3 studs deep, therefore to build a pillar that reaches the surface of the water 3 1x1x1 road segments must be stacked, in addition to any vertical distance above the water that may be required. </p>
+</li>
+</ul>
+</li>
+</ul>
+<p><strong>Gate  2 Wood/2 Stone, 1 Action</strong></p>
+<ul>
+<li>
+<p>A pawn garrisoning a gate is a gatekeeper. The controller of the gatekeeper may “close” or “open” the gate at will. A closed gate blocks the movement of resources and units through and into the gate. Open gates pose no barrier. An ungarrisoned gate is always open. </p>
+</li>
+<li>
+<p><em>Fortification:</em> </p>
+<ul>
+<li>
+<p><em>Range Bonus:</em> +0</p>
+</li>
+<li>
+<p><em>Strength Bonus</em>: +1</p>
+</li>
+</ul>
+</li>
+</ul>
+<p><strong>Wall Section 1 Stone, 1 Action</strong></p>
+<ul>
+<li>
+<p>Like roads, one stone and one action buys four 1x1x1 wall segments. Also like roads wall segments may be placed singly to create a 1 stud tall wall or in stacks to create taller walls. </p>
+</li>
+<li>
+<p>When traveling along the top of a wall, vertical differences of at most one stud may be ignored. However, when traveling on to or off of a wall (i.e. from the ground to the wall or vice versa) the vertical height of the wall must be taken into account.</p>
+</li>
+<li>
+<p><em>Fortification:</em></p>
+<ul>
+<li>
+<p><em>Range Bonus:</em> +0</p>
+</li>
+<li>
+<p><em>Strength Bonus</em>: +1</p>
+</li>
+</ul>
+</li>
+</ul>
+<p><strong>Tower    4 Stone, 1 Action</strong></p>
+<ul>
+<li>
+<p>Towers can be used to promote workers to warriors. Each tower can promote one worker per-turn during the <a href="#gather">#Gather</a> phase, if and only if that worker was in the tower at the beginning of the phase. </p>
+</li>
+<li>
+<p>For purposes of passage of units and resources, a tower is considered to function identically to a gate. When a tower is garrisoned, the controller of the garrison may open or close a tower at will to block passage of resources and/or units through the tower.</p>
+</li>
+<li>
+<p><em>Fortification:</em></p>
+<ul>
+<li>
+<p><em>Range Bonus:</em> + 1</p>
+</li>
+<li>
+<p><em>Strength Bonus:</em> +1</p>
+</li>
+</ul>
+</li>
+</ul>
+<p><strong>Quarry  4 Wood, 1 Action</strong></p>
+<ul>
+<li>
+<p>A quarry is required to harvest stone. </p>
+</li>
+<li>
+<p>Quarries are 1 stud wide and 2 studs long. The long side must be placed directly adjacent to a rock “cliff” which is at least 2 studs tall and 2 studs wide. See <a href="#d94797">stone harvesting</a> for more details.</p>
+</li>
+<li>
+<p>A single quarry can support up to to productive workers. Each of these workers can quarry one stud of stone each <a href="#gather">#Gather</a> phase.  ^671a6f</p>
+</li>
+</ul>
+<h3 id="deploy">Deploy<a class="headerlink" href="#deploy" title="Permanent link">&para;</a></h3>
+<p>During the deploy phase players may use actions to move warriors. The movement of warriors is subject to all the same rules as the movement of workers as found in the <a href="#move">#Move</a> section. Additionally, the deploy phase is when combat can take place between unfriendly units. </p>
+<h4 id="combat-art-of-the-skirmish">Combat: Art of the Skirmish<a class="headerlink" href="#combat-art-of-the-skirmish" title="Permanent link">&para;</a></h4>
+<p>Combat is conducted during the <a href="#deploy">#Deploy</a> phase and is accomplished through skirmishes. Skirmishes are free actions, but certain conditions must be met to initiate one. When skirmishing, there are some important concepts to keep in mind.</p>
+<ul>
+<li>
+<p><strong>Combat Range:</strong> Each pawn has a combat range. During a skirmish, a pawn can only “target” another pawn or detachment (see <a href="#6b7a99">detachments</a> below) when those targets are within their combat range. In most cases, combat range is calculated identically to movement range. There are a couple exceptions:</p>
+<ul>
+<li>
+<p><strong>Trees:</strong> The combat range of a pawn in a tree is calculated from the “trunk” of the tree. </p>
+</li>
+<li>
+<p><em>Fortifications:</em>* The vertical height of a fortification is not taken into account when calculating combat range.</p>
+</li>
+<li>
+<p><strong>Workers:</strong> Workers’ combat range is only effective when they are garrisoned in a fortification. A worker on unimproved ground or in non-fortification infrastructure cannot exercise their combat range.</p>
+</li>
+</ul>
+</li>
+<li>
+<p><strong>Attack/Defense Strength:</strong> Pawns have a base attack and defense strength. During a skirmish, when dice are rolled, one 6-sided dice is rolled for each pawn. Pawns score a hit when the die’s result is less than or equal to their strength. </p>
+</li>
+<li>
+<p><strong>Detachments:</strong> For the purposes of combat, friendly pawns stacked on the same stud are considered a detachment. Detachments are important for targeting. When a pawn in a detachment is targeted, the whole detachment is considered to be targeted. If a hit is scored, the controller of the detachment may choose any pawn from the detachment as the casualty (see <a href="#1cd3b9">casualties</a> below). </p>
+</li>
+</ul>
+<p>The table below summarizes some key combat values for workers and warriors. ^6b7a99</p>
+<table>
+<thead>
+<tr>
+<th>Unit</th>
+<th>Combat Range</th>
+<th>Base Attack Strength</th>
+<th>Base Defense Strength</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Worker</td>
+<td>2</td>
+<td>0</td>
+<td>0</td>
+</tr>
+<tr>
+<td>Warrior</td>
+<td>2</td>
+<td>2</td>
+<td>2</td>
+</tr>
+</tbody>
+</table>
+<p>Skirmishes are conducted as a sequence of steps:</p>
+<p>1) <strong>Declaration:</strong> Any player may declare a skirmish during, or immediately after a deploy action when at least one of their own pawns has a legal target. They do so by challenging one or more of the pawns they could legally target.   ^ed673c</p>
+<pre><code>1) Legal targets for the active player (the player whose turn it is) include all pawns within the effective combat range of their pawn(s) using the deploy action. For purposes of initiating a skirmish the declaring player may challenge more than one detachment.
+
+2) Legal targets for inactive players are only those pawns using the deploy action.
+
+3) When any player declares a skirmish between two or more pawns, that player is considered the declaring player. The controller(s) of the targeted pawns is the responding player(s).
+
+4) The responding player must respond with the challenged pawns, however, they may also respond with any other pawns who could target the declaring pawns.
+</code></pre>
+<p>3) <strong>Assign Targets:</strong> Before dice are rolled, each pawn engaged in combat must be assigned a target. If a pawn scores a hit, only pawns from the targeted detachment may be chosen as casualties. </p>
+<p>4) <strong>Dice Roll:</strong> Starting with the declaring player, each player in the skirmish takes a turn to roll one 6-sided dice for each of their pawns engaged in the skirmish. Players may find it prudent for clarity’s sake to roll dice for all pawns with the same target at the same time, but to roll dice for pawns with different targets separately. Each kind of unit has a <em>combat value</em> (also called <em>combat strength</em>), if that units’s die roll is less than or equal to its combat value, it scores a hit. Otherwise, it scores a miss. Some circumstances may increase the combat strength of a unit (e.g. fortifications), in these cases the adjusted combat value (base + bonus) is used to determine hits. All dice for all players/pawns are rolled and hits recorded before casualties are assigned. </p>
+<p>5) <strong>Casualties:</strong> Once each pawn has had a chance to roll a die, players must assign one casualty for each hit. Only pawns targeted by an hit can be chosen as a casualty for that hit. If all such targeted pawns have already been counted as a casualty, then the hit is not assigned. ^1cd3b
+    - Workers and Warriors may only be assigned one hit before they are considered a casualty. </p>
+<pre><code>- Pawns that become casualties are sent to “critical condition.” They are removed from the board and placed into the baseplate of the nearest friendly village. See [#Critical Condition](&lt;#critical-condition&gt;) for details on what happens to pawns in critical condition.
+</code></pre>
+<p>6) <strong>Reaction:</strong> After causalities are taken, each player (starting with defenders) have the choice of reacting with <em>one</em> of the following three options:</p>
+<pre><code>- *Retreat:* To retreat a player moves his/her pawns one stud away from their challenging pawns. When retreating, all rules governing movement apply except the following: (1) a vertical distance of at most one stud may be ignored and (2) no bonuses due to infrastructure (roads, boats, etc.) are counted. *Note: Given the particulars of board geography and movement rules, retreat is not always possible.*
+
+- *Complete the Deploy:* If this skirmish interrupted a deploy action of the active player (i.e. the player whose turn it is) then that player may choose to complete any remaining studs of movement afforded by their deploy action. Only move to step 6 once all remaining studs of the deployment action are completed.
+
+- *Re-deploy:* The active player may choose to initiate another deploy action. Step 6 may be initiated by either player at any point during this new deploy action. ^868a68
+</code></pre>
+<p>7) <strong>Press the Attack:</strong> Once any responses have been completed (or started in the case of a <a href="#868a68">re-deployment</a>), a new round of skirmishing may be initiated, as a free action, by any of the skirmishing parties provided the rules governing <a href="#ed673c">declaration</a> are met. If neither player choses to make a reaction, a new skirmish may be initiated immediately as a free action.</p>
+<p>Skirmishing rounds end only when all players able to press the attach choose to not do so or none of the parties are able to continue pressing the attack (e.g. all unfriendly pawns have taken casualties or retreated).</p>
+<p>Note that an initial skirmish may only be declared when a deploy action is taken. This means that a worker alone can never be used by the active player to initiate a skirmish. Workers may only challenge the active player’s deploying warriors. Additionally, two unfriendly warriors that begin the deployment phase within range of each other, cannot initiate a skirmish unless one of them initiates a deploy action. Once a skirmish is declared, subsequent skirmishes can be initiated immediately between the same detachments, but the initial skirmish cannot be declared without a deploy action used by one of the engaged parties.</p>
+<h5 id="plunder">Plunder<a class="headerlink" href="#plunder" title="Permanent link">&para;</a></h5>
+<p>When a pawn chosen as a casualty has resources they are temporarily storing during the round, those resources must be immediately gathered by another pawn, or forfeited. Only pawns within combat range of the may gather these resources. Priority is given to the pawns closest to the casualty. Amongst pawns of equal distance, priority is given to pawns controlled by the casualty’s controller. If no eligible pawns elect to gather the resources. They are removed from the game. Pawns may not hold more than two resources at a given time.</p>
+<p>When after control of infrastructure changes hands as the result of a skirmish (see <a href="#control-of-infrastructure">#Control of Infrastructure</a>). The new controller may immediately begin to use the infrastructure (e.g. they can use a newly seized boat for further deploy actions on the same turn). All resources currently stored in the infrastructure seized now belong to the new controller. </p>
+<h3 id="consume">Consume<a class="headerlink" href="#consume" title="Permanent link">&para;</a></h3>
+<p>By the end of the consume phase, each pawn must consume one stud of food, or else starve. During the consume phase, players may relocate resources according to the rules for <a href="#trade-movement-of-resources">Trade Routes</a>. If food cannot be moved to a pawn according to the trade route rules for resource movement, then the pawn starves even if the player controls enough food to feed them. </p>
+<h4 id="starvation">Starvation<a class="headerlink" href="#starvation" title="Permanent link">&para;</a></h4>
+<p>If a player is unable to feed a number of their pawns, those pawns then go into starvation. Each player connected to a starving pawn by a trade route has the option, starting with the player who controls food located closest to the starving pawn, to “save” the pawn by paying the consume cost to feed the pawn. If they do, the pawn immediately comes under their control, swap its cap to the new controller’s color. </p>
+<p>Pawns that are not “saved” by the generosity of a neighboring civilization (player) are removed from the board and placed on the baseplate of the nearest friendly village. These pawns are in “critical” state. </p>
+<h4 id="critical-condition">Critical Condition<a class="headerlink" href="#critical-condition" title="Permanent link">&para;</a></h4>
+<p>When a pawn is in critical condition, their controller may revive it on the following <a href="#consume">#Consume</a> phase by paying twice the normal consume cost (i.e. two food). If they do, replace the pawn on the board within the village where they were in critical state. If they are not revived, they die, remove them from the game. Critical pawns may not be revived by a player other than their controller, although they may stay in a village belonging to a friendly player (i.e. not their controller) while they are in recovery. </p>
+<p>Pawns in critical position do not count towards storage limits of villages.</p>
+<h4 id="resources-to-storage">Resources to Storage<a class="headerlink" href="#resources-to-storage" title="Permanent link">&para;</a></h4>
+<p>At the end of the <a href="#consume">#Consume</a> phase, any resources that are connected to storage infrastructure controlled by a friendly player (e.g. village, mill, storehouse, see <a href="#trade-movement-of-resources">#Trade Movement of Resources</a>) by a trade route, must be stored in that infrastructure or else removed from the game.</p>
+<p>Resources may only be stored with a pawn between turns if that pawn is not connected to another valid storage location by a trade route. </p>
+<h3 id="populate">Populate<a class="headerlink" href="#populate" title="Permanent link">&para;</a></h3>
+<p>During this phase each village produces one new pawn. Players cannot opt out or prevent a new pawn from being produced in each village they control. This new pawn is by default a worker, however, a player may choose to produce a warrior instead by paying 4 food for each warrior produced. </p>
+<p>When populating, you may place new pawns in the village, in one of its improvements, onto a stud directly adjacent to the village, or directly into infrastructure that is touching the village or one of its improvements. When placing a worker on a stud directly adjacent to the village, there must be no more than 3 studs of vertical distance between the level of the village and the level of the target stud (see <a href="#note-on-game-mediums">#Note on Game Mediums</a> for details on calculating distances). </p>
+<h1 id="iv-end-of-the-age">IV. End of the Age<a class="headerlink" href="#iv-end-of-the-age" title="Permanent link">&para;</a></h1>
+<p>While the mechanics of this game can be adapted to numerous civilization building challenges and associated goals, the below has been found to create an interesting game and balanced set of scoring incentives.</p>
+<h2 id="end-of-game-triggers">End of Game Triggers<a class="headerlink" href="#end-of-game-triggers" title="Permanent link">&para;</a></h2>
+<p>The game ends with the convening of the first high council. The high council may be called by any player when the following conditions are met: </p>
+<ul>
+<li>
+<p>A global population (20 x number of players), and</p>
+</li>
+<li>
+<p>All players must be connected via un-blockaded trade routes, and</p>
+</li>
+<li>
+<p>A player has either:</p>
+<ul>
+<li>
+<p>Controlled a Palace for 2 turns, or</p>
+</li>
+<li>
+<p>Has deployed at least one diplomat per village controlled by an opponent.</p>
+<ul>
+<li>A diplomat is a worker located within a village controlled by another player.</li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+<h2 id="scoring">Scoring<a class="headerlink" href="#scoring" title="Permanent link">&para;</a></h2>
+<p>The winner is the civilization who acquires the most civilization points. Points are awarded for the following:</p>
+<ul>
+<li>
+<p><strong>Palace Construction:</strong> </p>
+<ul>
+<li>
+<p>1st completed palace: 10 pts</p>
+</li>
+<li>
+<p>Other palaces:              7 pts</p>
+</li>
+</ul>
+</li>
+<li>
+<p><strong>Superlative Categories:</strong> For two player ties, points are split, for ties between 3+ players the category is not scored.</p>
+<ul>
+<li>
+<p>Most diplomats sent:   8 pts</p>
+</li>
+<li>
+<p>Received diplomats from the largest number of players: 5 pts</p>
+</li>
+<li>
+<p>Most villages:                4 pts</p>
+</li>
+<li>
+<p>Most cultivation of each resource:</p>
+<ul>
+<li>
+<p>Wheat:    3 pts</p>
+</li>
+<li>
+<p>Fish:        3 pts</p>
+</li>
+<li>
+<p>Wood:     3 pts</p>
+</li>
+<li>
+<p>Stone:     3 pts</p>
+</li>
+</ul>
+</li>
+<li>
+<p>Largest Population:      4 pts</p>
+</li>
+<li>
+<p>Largest Industry:          3 pts</p>
+</li>
+<li>
+<p>Largest food surplus:   3 pts</p>
+<ul>
+<li><em>Calculated after final <a href="#consume">#Consume</a> stage</em></li>
+</ul>
+</li>
+</ul>
+</li>
+<li>
+<p><strong>Penalties:</strong> Remove points for each of the following.</p>
+<ul>
+<li>Each pawn that died during the game for any reason:  -1 pt</li>
+</ul>
+</li>
+</ul>
+
+
+
+
+
+
+
+
+
+
+
+
+                
+              </article>
+            </div>
+          
+          
+<script>var target=document.getElementById(location.hash.slice(1));target&&target.name&&(target.checked=target.name.startsWith("__tabbed_"))</script>
+        </div>
+        
+          <button type="button" class="md-top md-icon" data-md-component="top" hidden>
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M13 20h-2V8l-5.5 5.5-1.42-1.42L12 4.16l7.92 7.92-1.42 1.42L13 8v12Z"/></svg>
+  Back to top
+</button>
+        
+      </main>
+      
+        <footer class="md-footer">
+  
+  <div class="md-footer-meta md-typeset">
+    <div class="md-footer-meta__inner md-grid">
+      <div class="md-copyright">
+  
+  
+    Made with
+    <a href="https://squidfunk.github.io/mkdocs-material/" target="_blank" rel="noopener">
+      Material for MkDocs
+    </a>
+  
+</div>
+      
+    </div>
+  </div>
+</footer>
+      
+    </div>
+    <div class="md-dialog" data-md-component="dialog">
+      <div class="md-dialog__inner md-typeset"></div>
+    </div>
+    
+    
+    <script id="__config" type="application/json">{"base": "..", "features": ["navigation.instant", "navigation.top"], "search": "../assets/javascripts/workers/search.b8dbb3d2.min.js", "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}}</script>
+    
+    
+      <script src="../assets/javascripts/bundle.ad660dcc.min.js"></script>
+      
+        <script src="../javascripts/mathjax.js"></script>
+      
+        <script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
+      
+        <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+      
+        <script src="https://unpkg.com/mermaid/dist/mermaid.min.js"></script>
+      
+    
+  </body>
+</html>
