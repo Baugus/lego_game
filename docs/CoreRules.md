@@ -379,19 +379,18 @@ Skirmishes are conducted as a sequence of steps:
 
 4) **Dice Roll:** Starting with the declaring player, each player in the skirmish takes a turn to roll one 6-sided dice for each of their pawns engaged in the skirmish. Players may find it prudent for clarity’s sake to roll dice for all pawns with the same target at the same time, but to roll dice for pawns with different targets separately. Each kind of unit has a *combat value* (also called *combat strength*), if that units’s die roll is less than or equal to its combat value, it scores a hit. Otherwise, it scores a miss. Some circumstances may increase the combat strength of a unit (e.g. fortifications), in these cases the adjusted combat value (base + bonus) is used to determine hits. All dice for all players/pawns are rolled and hits recorded before casualties are assigned. 
 
-5) **Casualties:** Once each pawn has had a chance to roll a die, players must assign one casualty for each hit. Only pawns targeted by an hit can be chosen as a casualty for that hit. If all such targeted pawns have already been counted as a casualty, then the hit is not assigned. ^1cd3b9
+5) **Casualties:** Once each pawn has had a chance to roll a die, players must assign one casualty for each hit. Only pawns targeted by an hit can be chosen as a casualty for that hit. If all such targeted pawns have already been counted as a casualty, then the hit is not assigned. ^1cd3b
+	- Workers and Warriors may only be assigned one hit before they are considered a casualty. 
 	
-	1) Workers and Warriors may only be assigned one hit before they are considered a casualty. 
-	
-	2) Pawns that become casualties are sent to “critical condition.” They are removed from the board and placed into the baseplate of the nearest friendly village. See [[#Critical Condition]] for details on what happens to pawns in critical condition.
+	- Pawns that become casualties are sent to “critical condition.” They are removed from the board and placed into the baseplate of the nearest friendly village. See [[#Critical Condition]] for details on what happens to pawns in critical condition.
 
 6) **Reaction:** After causalities are taken, each player (starting with defenders) have the choice of reacting with *one* of the following three options:
 	
-	1) *Retreat:* To retreat a player moves his/her pawns one stud away from their challenging pawns. When retreating, all rules governing movement apply except the following: (1) a vertical distance of at most one stud may be ignored and (2) no bonuses due to infrastructure (roads, boats, etc.) are counted. *Note: Given the particulars of board geography and movement rules, retreat is not always possible.*
+	- *Retreat:* To retreat a player moves his/her pawns one stud away from their challenging pawns. When retreating, all rules governing movement apply except the following: (1) a vertical distance of at most one stud may be ignored and (2) no bonuses due to infrastructure (roads, boats, etc.) are counted. *Note: Given the particulars of board geography and movement rules, retreat is not always possible.*
 	
-	2) *Complete the Deploy:* If this skirmish interrupted a deploy action of the active player (i.e. the player whose turn it is) then that player may choose to complete any remaining studs of movement afforded by their deploy action. Only move to step 6 once all remaining studs of the deployment action are completed.
+	- *Complete the Deploy:* If this skirmish interrupted a deploy action of the active player (i.e. the player whose turn it is) then that player may choose to complete any remaining studs of movement afforded by their deploy action. Only move to step 6 once all remaining studs of the deployment action are completed.
 	
-	3) *Re-deploy:* The active player may choose to initiate another deploy action. Step 6 may be initiated by either player at any point during this new deploy action. ^868a68
+	- *Re-deploy:* The active player may choose to initiate another deploy action. Step 6 may be initiated by either player at any point during this new deploy action. ^868a68
 
 7) **Press the Attack:** Once any responses have been completed (or started in the case of a [[#^868a68|re-deployment]]), a new round of skirmishing may be initiated, as a free action, by any of the skirmishing parties provided the rules governing [[#^ed673c|declaration]] are met. If neither player choses to make a reaction, a new skirmish may be initiated immediately as a free action.
 
@@ -432,30 +431,55 @@ While the mechanics of this game can be adapted to numerous civilization buildin
 
 ## End of Game Triggers
 The game ends with the convening of the first high council. The high council may be called by any player when the following conditions are met: 
+
 - A global population (20 x number of players), and
+
+
 - All players must be connected via un-blockaded trade routes, and
+
 - A player has either:
+
 	- Controlled a Palace for 2 turns, or
+	
 	- Has deployed at least one diplomat per village controlled by an opponent.
+	
 		- A diplomat is a worker located within a village controlled by another player.
 
 ## Scoring    
 The winner is the civilization who acquires the most civilization points. Points are awarded for the following:
+
 - **Palace Construction:** 
+
 	- 1st completed palace: 10 pts
+	
 	- Other palaces:              7 pts
+
 - **Superlative Categories:** For two player ties, points are split, for ties between 3+ players the category is not scored.
+
 	- Most diplomats sent:   8 pts
+	
 	- Received diplomats from the largest number of players: 5 pts
+	
 	- Most villages:                4 pts
+	
 	- Most cultivation of each resource:
+	
 		- Wheat:    3 pts
+		
 		- Fish:        3 pts
+		
 		- Wood:     3 pts
+		
 		- Stone:     3 pts
+	
 	- Largest Population:      4 pts
+	
 	- Largest Industry:          3 pts
+	
 	- Largest food surplus:   3 pts
+	
 		- *Calculated after final [[#Consume]] stage*
+
 - **Penalties:** Remove points for each of the following.
+
 	- Each pawn that died during the game for any reason:  -1 pt
